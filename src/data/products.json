@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "nom": "Desert Dream",
+    "prix": 45,
+    "description": "T-shirt respirant aux couleurs du désert. Parfait pour les aventures en terres arides.",
+    "image": "https://picsum.photos/seed/Desert%20Dream/600/700",
+    "categorie": "Globe",
+    "tailles": ["S", "M", "L", "XL"],
+    "badge": "Bestseller"
+  },
+  {
+    "id": 2,
+    "nom": "Mountain Peak",
+    "prix": 50,
+    "description": "Coupe moderne pour les amoureux d'altitude. Léger et durable.",
+    "image": "https://picsum.photos/seed/Mountain%20Peak/600/700",
+    "categorie": "Atlas",
+    "tailles": ["S", "M", "L", "XL"],
+    "badge": null
+  },
+  {
+    "id": 3,
+    "nom": "Ocean Horizon",
+    "prix": 48,
+    "description": "Inspiré par les horizons marins. Teinte apaisante et confortable.",
+    "image": "https://picsum.photos/seed/Ocean%20Horizon/600/700",
+    "categorie": "Horizon",
+    "tailles": ["S", "M", "L", "XL"],
+    "badge": "Nouveau"
+  },
+  {
+    "id": 4,
+    "nom": "Forest Path",
+    "prix": 42,
+    "description": "Édition limitée aux tons forestiers. Pour les explorateurs de la nature.",
+    "image": "https://picsum.photos/seed/Forest%20Path/600/700",
+    "categorie": "Globe",
+    "tailles": ["S", "M", "L", "XL"],
+    "badge": null
+  },
+  {
+    "id": 5,
+    "nom": "Arctic Wind",
+    "prix": 55,
+    "description": "Collection premium pour les voyages polaires. Premium et exclusif.",
+    "image": "https://picsum.photos/seed/Arctic%20Wind/600/700",
+    "categorie": "Atlas",
+    "tailles": ["S", "M", "L", "XL"],
+    "badge": "Bestseller"
+  },
+  {
+    "id": 6,
+    "nom": "Sunset Vibes",
+    "prix": 46,
+    "description": "Inspiré par les couchers de soleil tropicaux. Idéal pour les voyages d'été.",
+    "image": "https://picsum.photos/seed/Sunset%20Vibes/600/700",
+    "categorie": "Horizon",
+    "tailles": ["S", "M", "L", "XL"],
+    "badge": null
+  },
+  {
+    "id": 7,
+    "nom": "Wanderer's Choice",
+    "prix": 52,
+    "description": "Le choix des grands voyageurs. Versatile et intemporel.",
+    "image": "https://picsum.photos/seed/Wanderer%27s%20Choice/600/700",
+    "categorie": "Globe",
+    "tailles": ["S", "M", "L", "XL"],
+    "badge": "Nouveau"
+  },
+  {
+    "id": 8,
+    "nom": "Compass Rose",
+    "prix": 65,
+    "description": "Édition collector avec broderie rose des vents. Qualité supérieure.",
+    "image": "https://picsum.photos/seed/Compass%20Rose/600/700",
+    "categorie": "Atlas",
+    "tailles": ["S", "M", "L", "XL"],
+    "badge": "Bestseller"
+  }
+]

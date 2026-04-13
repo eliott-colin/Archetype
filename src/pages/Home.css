@@ -1,0 +1,205 @@
+.home {
+  flex-grow: 1;
+}
+
+/* Hero Section */
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 3rem;
+  padding: 4rem 0;
+  background: linear-gradient(135deg, var(--color-ivoire) 0%, var(--color-beige) 100%);
+}
+
+.hero .container {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 3rem;
+}
+
+.hero-content {
+  z-index: 1;
+}
+
+.hero h1 {
+  font-size: 4rem;
+  color: var(--color-nuit);
+  margin-bottom: 1rem;
+  letter-spacing: 3px;
+}
+
+.hero-subtitle {
+  font-size: 1.2rem;
+  color: var(--color-brun);
+  max-width: 500px;
+  margin-bottom: 1rem;
+  font-style: italic;
+  line-height: 1.8;
+}
+
+.hero-coordinates {
+  font-size: 0.85rem;
+  color: var(--color-kaki);
+  letter-spacing: 2px;
+  margin-bottom: 2rem;
+  font-family: var(--font-title);
+}
+
+.hero-visual {
+  overflow: hidden;
+  border-radius: 2px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.hero-image-placeholder {
+  width: 100%;
+  aspect-ratio: 1;
+  background-color: var(--color-beige);
+}
+
+.hero-image-placeholder img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Featured Products */
+.featured {
+  background-color: var(--color-beige);
+}
+
+.featured h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.featured-cta {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+/* Values */
+.values {
+  background-color: var(--color-ivoire);
+}
+
+.values h2 {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.value-card {
+  background-color: white;
+  padding: 2rem;
+  border: 1px solid var(--color-beige);
+  border-radius: 2px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.value-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+  transform: translateY(-4px);
+}
+
+.value-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.value-card h3 {
+  font-size: 1.3rem;
+  color: var(--color-brun);
+  margin-bottom: 1rem;
+}
+
+.value-card p {
+  color: #666;
+  line-height: 1.7;
+}
+
+/* CTA Section */
+.cta-section {
+  background-color: var(--color-beige);
+  text-align: center;
+}
+
+.cta-section h2 {
+  color: var(--color-nuit);
+}
+
+.cta-text {
+  font-size: 1.1rem;
+  color: var(--color-carbone);
+  max-width: 600px;
+  margin: 1.5rem auto 2rem;
+  line-height: 1.8;
+}
+
+@media (max-width: 768px) {
+  .hero .container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 2rem 0;
+  }
+
+  .hero h1 {
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+
+  .values-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .value-card {
+    padding: 1.5rem;
+  }
+
+  .value-icon {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    padding: 2rem 0;
+  }
+
+  .hero h1 {
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+  }
+
+  .hero-subtitle {
+    font-size: 0.9rem;
+  }
+
+  .values-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .value-card {
+    padding: 1rem;
+  }
+
+  .value-icon {
+    font-size: 2rem;
+  }
+}

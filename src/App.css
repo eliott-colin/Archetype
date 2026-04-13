@@ -1,0 +1,16 @@
+.app-layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.app-main {
+  flex: 1;
+  background-color: var(--color-ivoire);
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-ivoire);
+}

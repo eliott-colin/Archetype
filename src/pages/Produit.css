@@ -247,7 +247,15 @@
 }
 
 .related-card {
+  display: block;
   text-align: center;
+  text-decoration: none;
+  transition: transform 0.25s ease;
+  cursor: pointer;
+}
+
+.related-card:hover {
+  transform: translateY(-4px);
 }
 
 .related-card img {

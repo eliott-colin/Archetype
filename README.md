@@ -51,7 +51,7 @@ Le projet est organise pour separer clairement les responsabilites :
 
 1. Cloner le dépôt :
    ```bash
-   git clone <url-du-repo>
+   git clone https://github.com/eliott-colin/Archetype/
    cd Archetype
    ```
 
@@ -64,7 +64,7 @@ Le projet est organise pour separer clairement les responsabilites :
    ```bash
    npm run dev
    ```
-   
+
 ## 📦 Scripts disponibles
 
 - `npm run dev` : lance le serveur de developpement

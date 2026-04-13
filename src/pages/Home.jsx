@@ -10,7 +10,7 @@ export default function Home() {
     <div className="home">
       {/* Hero Section */}
       <section className="hero">
-        <div className="hero-content">
+        <div className="hero-content" style={{margin: "auto"}}>
           <h1>ARCHETYPE</h1>
           <p className="hero-subtitle">Voyager plus lentement, regarder plus loin, laisser moins de traces.</p>
           <p className="hero-coordinates">N 48°51'24" E 2°21'07"</p>

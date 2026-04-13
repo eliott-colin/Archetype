@@ -1,5 +1,5 @@
-import { useState } from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
+import { useEffect, useState } from 'react';
+import { Link, useParams, useNavigate } from 'react-router-dom';
 import { useCart } from '../context/CartContext';
 import productsData from '../data/products.json';
 import './Produit.css';
@@ -13,6 +13,10 @@ export default function Produit() {
   const [message, setMessage] = useState('');
 
   const product = productsData.find((p) => p.id === parseInt(id));
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [id]);
 
   if (!product) {
     return (
@@ -149,11 +153,11 @@ export default function Produit() {
             <h2>Produits connexes</h2>
             <div className="grid">
               {relatedProducts.map((prod) => (
-                <div key={prod.id} className="related-card">
+                <Link key={prod.id} to={`/produit/${prod.id}`} className="related-card">
                   <img src={prod.image} alt={prod.nom} />
                   <h4>{prod.nom}</h4>
                   <p className="related-price">{prod.prix}€</p>
-                </div>
+                </Link>
               ))}
             </div>
           </div>

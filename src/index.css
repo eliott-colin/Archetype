@@ -95,7 +95,7 @@ button {
 }
 
 .btn-secondary {
-  background-color: transparent;
+  background-color: #0e2a3aa3;
   color: var(--color-bronze);
   border: 2px solid var(--color-bronze);
   padding: 0.6rem 1.3rem;

@@ -27,6 +27,7 @@ export default function Footer() {
               <li><a href="mailto:contact@archetype-studio.fr">Contact</a></li>
               <li><a href="#about">À propos</a></li>
               <li><a href="#privacy">Politique de confidentialité</a></li>
+              <li><a href="https://www.instagram.com/archetype_tr"><img src="/public/instagram.png" alt="Instagram" style={{width:"48px"}}/></a></li>
             </ul>
           </div>
         </div>

@@ -9,9 +9,12 @@ export default function Navbar() {
   return (
     <nav className="navbar">
       <div className="container navbar-content">
-        <Link to="/" className="navbar-logo">
-          ARCHETYPE
-        </Link>
+        <div style={{alignItems:"center", display:"flex",gap:"20px"}}>
+          <img src="/public/logo.png" alt="ARCHETYPE Logo" style={{width:"56px",borderRadius:"100%"}} />
+          <Link to="/" className="navbar-logo">
+            ARCHETYPE
+          </Link>
+        </div>
         
         <ul className="navbar-links">
           <li>

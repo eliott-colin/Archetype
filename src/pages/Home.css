@@ -34,7 +34,6 @@
 .hero-subtitle {
   font-size: 1.2rem;
   color: var(--color-brun);
-  max-width: 500px;
   margin-bottom: 1rem;
   font-style: italic;
   line-height: 1.8;

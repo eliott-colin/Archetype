@@ -1,17 +1,30 @@
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { useCart } from '../context/CartContext';
 import './Navbar.css';
 
 export default function Navbar() {
   const { getCartCount } = useCart();
   const cartCount = getCartCount();
+  const location = useLocation();
+
+  const handleLogoClick = (event) => {
+    if (location.pathname === '/') {
+      event.preventDefault();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  };
 
   return (
     <nav className="navbar">
       <div className="container navbar-content">
         <div style={{alignItems:"center", display:"flex",gap:"20px"}}>
-          <img src="/public/logo.png" alt="ARCHETYPE Logo" style={{width:"56px",borderRadius:"100%"}} />
-          <Link to="/" className="navbar-logo">
+          <Link
+            to="/"
+            onClick={handleLogoClick}
+            className="navbar-logo"
+            style={{alignItems : "center", display:"flex",gap:"12px"}}
+          >
+          <img src="/logo.png" alt="ARCHETYPE Logo" style={{width:"56px",borderRadius:"100%"}} />
             ARCHETYPE
           </Link>
         </div>

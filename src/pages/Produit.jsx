@@ -11,6 +11,14 @@ export default function Produit() {
   const [selectedSize, setSelectedSize] = useState('M');
   const [quantity, setQuantity] = useState(1);
   const [message, setMessage] = useState('');
+  const [showSizeGuide, setShowSizeGuide] = useState(false);
+
+  const sizeGuide = {
+    S: { poitrine: '88 - 94', longueur: '68', manche: '20' },
+    M: { poitrine: '95 - 101', longueur: '70', manche: '21' },
+    L: { poitrine: '102 - 108', longueur: '72', manche: '22' },
+    XL: { poitrine: '109 - 116', longueur: '74', manche: '23' },
+  };
 
   const product = productsData.find((p) => p.id === parseInt(id));
 
@@ -84,6 +92,42 @@ export default function Produit() {
                   </button>
                 ))}
               </div>
+              <button
+                type="button"
+                className="size-guide-toggle"
+                onClick={() => setShowSizeGuide((prev) => !prev)}
+                aria-expanded={showSizeGuide}
+              >
+                {showSizeGuide ? 'Masquer le guide des tailles' : 'Voir le guide des tailles'}
+              </button>
+
+              {showSizeGuide && (
+                <div className="size-guide" role="region" aria-label="Guide des tailles">
+                  <p className="size-guide-note">
+                    Mesures en cm. Entre deux tailles ? Prenez la plus grande pour un effet oversize.
+                  </p>
+                  <table className="size-guide-table">
+                    <thead>
+                      <tr>
+                        <th>Taille</th>
+                        <th>Tour de poitrine</th>
+                        <th>Longueur</th>
+                        <th>Manche</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {product.tailles.map((size) => (
+                        <tr key={size} className={selectedSize === size ? 'selected' : ''}>
+                          <td>{size}</td>
+                          <td>{sizeGuide[size]?.poitrine ?? '-'}</td>
+                          <td>{sizeGuide[size]?.longueur ?? '-'}</td>
+                          <td>{sizeGuide[size]?.manche ?? '-'}</td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              )}
             </div>
 
             {/* Quantity Selection */}

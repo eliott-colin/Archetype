@@ -9,9 +9,9 @@ export default function Home() {
   return (
     <div className="home">
       {/* Hero Section */}
-      <section className="hero" style={{gap:"0"}}>
+      <section className="hero" style={{gap:"0", mediaQueries: "(max-width: 768px) : {display: 'flex', flexDirection: 'column'}"}}>
         <div className="hero-image-placeholder">
-          <div className="hero-content" style={{margin: "auto", backgroundImage : "url(/public/atelier.png)",height: "100%", backgroundSize: "cover",alignContent: "center",textAlign: "center"}}>
+          <div className="hero-content" style={{margin: "auto", backgroundImage : "url(../atelier.png)",height: "100%", backgroundSize: "cover",alignContent: "center",textAlign: "center"}}>
             <h1>ARCHETYPE</h1>
             <p className="hero-subtitle">Voyager plus lentement, regarder plus loin, laisser moins de traces.</p>
             <p className="hero-coordinates">N 48°51'24" E 2°21'07"</p>
@@ -23,7 +23,7 @@ export default function Home() {
         <div className="hero-visual">
           <div className="hero-image-placeholder">
             <img 
-              src="/public/tshirt.png" 
+              src="../tshirt.png" 
               alt="Collection ARCHETYPE"
               loading="lazy"
             />
@@ -32,7 +32,7 @@ export default function Home() {
       </section>
 
       {/* Featured Products */}
-      <section className="featured section-padding section-bg" style={{backgroundImage : "url(/public/voyage.jpg)", backgroundSize: "cover"}}>
+      <section className="featured section-padding section-bg" style={{backgroundImage : "url(../voyage.jpg)", backgroundSize: "cover"}}>
         <div className="container">
           <h2 style={{color:"#0e2a3a"}}>Produits en avant</h2>
           <div className="grid">

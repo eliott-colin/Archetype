@@ -33,7 +33,7 @@ export default function Footer() {
         </div>
 
         <div className="footer-bottom">
-          <p>&copy; 2024 ARCHETYPE Studio. Tous droits réservés.</p>
+          <p>&copy; 2026 ARCHETYPE Studio. Tous droits réservés.</p>
           <p className="coordinates">N 48°51'24" E 2°21'07"</p>
         </div>
       </div>

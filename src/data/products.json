@@ -1,14 +1,14 @@
 [
   {
     "id": 1,
-    "nom": "Pyramide",
+    "nom": "Pyramide de Gizeh",
     "prix": 45,
     "description": "T-shirt inspiré des pyramides. Design minimaliste et intemporel.",
     "images": [
       "../tshirt-pyramide.png",
       "../tshirt-pyramide-presentation.png"
     ],
-    "categorie": "Pyramide",
+    "categorie": "Pyramide de Gizeh",
     "tailles": ["S", "M", "L", "XL"],
     "badge": "Bestseller"
   },
@@ -21,7 +21,7 @@
       "../tshirt-pyramide-noir.png",
       "../tshirt-pyramide-noir-presentation.png"
     ],
-    "categorie": "Pyramide",
+    "categorie": "Pyramide de Gizeh",
     "tailles": ["S", "M", "L", "XL"],
     "badge": null
   },
@@ -31,10 +31,10 @@
     "prix": 48,
     "description": "T-shirt inspiré de Rio et de son énergie vibrante.",
     "images": [
-      "../tshirt-rio.png",
-      "../tshirt-rio-presentation.png"
+      "../tshirt-christ.png",
+      "../tshirt-christ-presentation.png"
     ],
-    "categorie": "Rio",
+    "categorie": "Christ Rédempteur",
     "tailles": ["S", "M", "L", "XL"],
     "badge": "Nouveau"
   },
@@ -44,10 +44,10 @@
     "prix": 50,
     "description": "Version noire du design Rio, élégante et moderne.",
     "images": [
-      "../tshirt-rio-noir.png",
-      "../tshirt-rio-noir-presentation.png"
+      "../tshirt-christ-noir.png",
+      "../tshirt-christ-noir-presentation.png"
     ],
-    "categorie": "Rio",
+    "categorie": "Christ Rédempteur",
     "tailles": ["S", "M", "L", "XL"],
     "badge": null
   },
@@ -61,9 +61,9 @@
       "../tshirt-montagne-face.png",
       "../tshirt-montagne-dos.png"
     ],
-    "categorie": "Montagne",
+    "categorie": "Machu Picchu",
     "tailles": ["S", "M", "L", "XL"],
-    "badge": "Bestseller"
+    "badge": "Rupture de stock"
   },
   {
     "id": 6,
@@ -75,7 +75,7 @@
       "../tshirt-montagne-face-noir.png",
       "../tshirt-montagne-dos-noir.png"
     ],
-    "categorie": "Montagne",
+    "categorie": "Machu Picchu",
     "tailles": ["S", "M", "L", "XL"],
     "badge": null
   },
@@ -135,54 +135,54 @@
   },
   {
     "id": 11,
-    "nom": "Dromadaire",
+    "nom": "Petra",
     "prix": 51,
     "description": "Un design desertique inspire des paysages arides et des voyages en caravane.",
     "images": [
-      "../tshirt-dromadaire.png",
-      "../tshirt-dromadaire-presentation.png"
+      "../tshirt-petra.png",
+      "../tshirt-petra-presentation.png"
     ],
-    "categorie": "Dromadaire",
+    "categorie": "Petra",
     "tailles": ["S", "M", "L", "XL"],
-    "badge": "Nouveau"
+    "badge": "Dernière pièce"
   },
   {
     "id": 12,
-    "nom": "Dromadaire Noir",
+    "nom": "Petra Noir",
     "prix": 53,
-    "description": "Version sombre du modele Dromadaire, sobrietee et caractere au quotidien.",
+    "description": "Version sombre du modele Petra, sobrietee et caractere au quotidien.",
     "images": [
-      "../tshirt-dromadaire-noir.png",
-      "../tshirt-dromadaire-noir-presentation.png"
+      "../tshirt-petra-noir.png",
+      "../tshirt-petra-noir-presentation.png"
     ],
-    "categorie": "Dromadaire",
+    "categorie": "Petra",
     "tailles": ["S", "M", "L", "XL"],
     "badge": null
   },
   {
     "id": 13,
-    "nom": "Temple",
+    "nom": "Babylone",
     "prix": 58,
     "description": "Un visuel architecture et patrimoine, entre mystere ancien et modernite.",
     "images": [
-      "../tshirt-temple-face.png",
-      "../tshirt-temple-presentation.png",
-      "../tshirt-temple-dos.png"
+      "../tshirt-babylone-presentation.png",
+      "../tshirt-babylone-face.png",
+      "../tshirt-babylone-dos.png"
     ],
-    "categorie": "Temple",
+    "categorie": "Babylone",
     "tailles": ["S", "M", "L", "XL"],
     "badge": "Bestseller"
   },
   {
     "id": 14,
-    "nom": "Temple Noir",
+    "nom": "Babylone Noir",
     "prix": 60,
-    "description": "Declinaison noire du design Temple pour un look premium et affirme.",
+    "description": "Declinaison noire du design Babylone pour un look premium et affirme.",
     "images": [
-      "../tshirt-temple-noir.png",
-      "../tshirt-temple-noir-presentation.png"
+      "../tshirt-babylone-noir.png",
+      "../tshirt-babylone-noir-presentation.png"
     ],
-    "categorie": "Temple",
+    "categorie": "Babylone",
     "tailles": ["S", "M", "L", "XL"],
     "badge": null
   }

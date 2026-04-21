@@ -148,6 +148,9 @@ button {
 .badge.nouveau {
   background-color: var(--color-kaki);
 }
+.badge.rupture {
+  background-color: #f33e08;
+}
 
 /* Responsive */
 @media (max-width: 768px) {

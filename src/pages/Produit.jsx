@@ -12,6 +12,7 @@ export default function Produit() {
   const [quantity, setQuantity] = useState(1);
   const [message, setMessage] = useState('');
   const [showSizeGuide, setShowSizeGuide] = useState(false);
+  const [selectedImageIndex, setSelectedImageIndex] = useState(0);
 
   const sizeGuide = {
     S: { poitrine: '88 - 94', longueur: '68', manche: '20' },
@@ -21,9 +22,17 @@ export default function Produit() {
   };
 
   const product = productsData.find((p) => p.id === parseInt(id));
+  const productImages = Array.isArray(product?.images) && product.images.length > 0
+    ? product.images
+    : [product?.image].filter(Boolean);
+  const mainImage = productImages[selectedImageIndex] || productImages[0] || '';
 
   useEffect(() => {
     window.scrollTo(0, 0);
+  }, [id]);
+
+  useEffect(() => {
+    setSelectedImageIndex(0);
   }, [id]);
 
   if (!product) {
@@ -57,12 +66,30 @@ export default function Produit() {
       <div className="container produit-content">
         {/* Product Details */}
         <div className="produit-layout">
-          <div className="produit-image">
-            <img src={product.image} alt={product.nom} />
-            {product.badge && (
-              <span className={`badge ${product.badge.toLowerCase()}`}>
-                {product.badge}
-              </span>
+          <div className="produit-media">
+            <div className="produit-image">
+              <img src={mainImage} alt={product.nom} />
+              {product.badge && (
+                <span className={`badge ${product.badge.toLowerCase()}`}>
+                  {product.badge}
+                </span>
+              )}
+            </div>
+
+            {productImages.length > 1 && (
+              <div className="produit-thumbnails" aria-label="Galerie d'images produit">
+                {productImages.map((img, index) => (
+                  <button
+                    key={img + index}
+                    type="button"
+                    className={`thumbnail-btn ${selectedImageIndex === index ? 'active' : ''}`}
+                    onClick={() => setSelectedImageIndex(index)}
+                    aria-label={`Afficher l'image ${index + 1}`}
+                  >
+                    <img src={img} alt={`${product.nom} vue ${index + 1}`} />
+                  </button>
+                ))}
+              </div>
             )}
           </div>
 
@@ -198,7 +225,10 @@ export default function Produit() {
             <div className="grid">
               {relatedProducts.map((prod) => (
                 <Link key={prod.id} to={`/produit/${prod.id}`} className="related-card">
-                  <img src={prod.image} alt={prod.nom} />
+                  <img
+                    src={(Array.isArray(prod.images) && prod.images.length > 0 ? prod.images[0] : prod.image) || ''}
+                    alt={prod.nom}
+                  />
                   <h4>{prod.nom}</h4>
                   <p className="related-price">{prod.prix}€</p>
                 </Link>

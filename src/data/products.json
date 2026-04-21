@@ -4,7 +4,10 @@
     "nom": "Pyramide",
     "prix": 45,
     "description": "T-shirt inspiré des pyramides. Design minimaliste et intemporel.",
-    "image": "../tshirt-pyramide.png",
+    "images": [
+      "../tshirt-pyramide.png",
+      "../tshirt-pyramide-presentation.png"
+    ],
     "categorie": "Pyramide",
     "tailles": ["S", "M", "L", "XL"],
     "badge": "Bestseller"
@@ -14,7 +17,10 @@
     "nom": "Pyramide Noir",
     "prix": 47,
     "description": "Version sombre du design pyramide pour un style plus urbain.",
-    "image": "../tshirt-pyramide-noir.png",
+    "images": [
+      "../tshirt-pyramide-noir.png",
+      "../tshirt-pyramide-noir-presentation.png"
+    ],
     "categorie": "Pyramide",
     "tailles": ["S", "M", "L", "XL"],
     "badge": null
@@ -24,7 +30,10 @@
     "nom": "Rio",
     "prix": 48,
     "description": "T-shirt inspiré de Rio et de son énergie vibrante.",
-    "image": "../tshirt-rio.png",
+    "images": [
+      "../tshirt-rio.png",
+      "../tshirt-rio-presentation.png"
+    ],
     "categorie": "Rio",
     "tailles": ["S", "M", "L", "XL"],
     "badge": "Nouveau"
@@ -34,7 +43,10 @@
     "nom": "Rio Noir",
     "prix": 50,
     "description": "Version noire du design Rio, élégante et moderne.",
-    "image": "../tshirt-rio-noir.png",
+    "images": [
+      "../tshirt-rio-noir.png",
+      "../tshirt-rio-noir-presentation.png"
+    ],
     "categorie": "Rio",
     "tailles": ["S", "M", "L", "XL"],
     "badge": null
@@ -44,7 +56,11 @@
     "nom": "Montagne",
     "prix": 52,
     "description": "Pour les amateurs d'altitude et de nature sauvage.",
-    "image": "../tshirt-montagne.png",
+    "images": [
+      "../tshirt-montagne.png",
+      "../tshirt-montagne-face.png",
+      "../tshirt-montagne-dos.png"
+    ],
     "categorie": "Montagne",
     "tailles": ["S", "M", "L", "XL"],
     "badge": "Bestseller"
@@ -54,7 +70,11 @@
     "nom": "Montagne Noir",
     "prix": 54,
     "description": "Design montagne en version sombre pour un look premium.",
-    "image": "../tshirt-montagne-noir.png",
+    "images": [
+      "../tshirt-montagne-noir.png",
+      "../tshirt-montagne-face-noir.png",
+      "../tshirt-montagne-dos-noir.png"
+    ],
     "categorie": "Montagne",
     "tailles": ["S", "M", "L", "XL"],
     "badge": null
@@ -64,7 +84,11 @@
     "nom": "Machu Picchu",
     "prix": 55,
     "description": "Inspiré du célèbre site inca. Mystérieux et iconique.",
-    "image": "../tshirt-machu-picchu.png",
+    "images": [
+      "../tshirt-machu-picchu.png",
+      "../tshirt-machu-picchu-face.png",
+      "../tshirt-machu-picchu-dos.png"
+    ],
     "categorie": "Machu Picchu",
     "tailles": ["S", "M", "L", "XL"],
     "badge": "Nouveau"
@@ -74,7 +98,10 @@
     "nom": "Machu Picchu Noir",
     "prix": 57,
     "description": "Version noire du design Machu Picchu pour un style affirmé.",
-    "image": "../tshirt-machu-picchu-noir.png",
+    "images": [
+      "../tshirt-machu-picchu-noir.png",
+      "../tshirt-machu-picchu-noir-plie.png"
+    ],
     "categorie": "Machu Picchu",
     "tailles": ["S", "M", "L", "XL"],
     "badge": null
@@ -84,7 +111,11 @@
     "nom": "Muraille de Chine",
     "prix": 53,
     "description": "Un design inspiré de la Grande Muraille, symbole de voyage et d’histoire.",
-    "image": "../tshirt-muraille-de-chine.png",
+    "images": [
+      "../tshirt-muraille-de-chine.png",
+      "../tshirt-muraille-de-chine-face.png",
+      "../tshirt-muraille-de-chine-dos.png"
+    ],
     "categorie": "Muraille de Chine",
     "tailles": ["S", "M", "L", "XL"],
     "badge": null
@@ -94,9 +125,65 @@
     "nom": "Muraille de Chine Noir",
     "prix": 56,
     "description": "Version sombre du design Muraille de Chine, élégante et moderne.",
-    "image": "../tshirt-muraille-de-chine-noir.png",
+    "images": [
+      "../tshirt-muraille-de-chine-noir.png",
+      "../tshirt-muraille-de-chine-noir-plie.png"
+    ],
     "categorie": "Muraille de Chine",
     "tailles": ["S", "M", "L", "XL"],
     "badge": "Bestseller"
+  },
+  {
+    "id": 11,
+    "nom": "Dromadaire",
+    "prix": 51,
+    "description": "Un design desertique inspire des paysages arides et des voyages en caravane.",
+    "images": [
+      "../tshirt-dromadaire.png",
+      "../tshirt-dromadaire-presentation.png"
+    ],
+    "categorie": "Dromadaire",
+    "tailles": ["S", "M", "L", "XL"],
+    "badge": "Nouveau"
+  },
+  {
+    "id": 12,
+    "nom": "Dromadaire Noir",
+    "prix": 53,
+    "description": "Version sombre du modele Dromadaire, sobrietee et caractere au quotidien.",
+    "images": [
+      "../tshirt-dromadaire-noir.png",
+      "../tshirt-dromadaire-noir-presentation.png"
+    ],
+    "categorie": "Dromadaire",
+    "tailles": ["S", "M", "L", "XL"],
+    "badge": null
+  },
+  {
+    "id": 13,
+    "nom": "Temple",
+    "prix": 58,
+    "description": "Un visuel architecture et patrimoine, entre mystere ancien et modernite.",
+    "images": [
+      "../tshirt-temple-face.png",
+      "../tshirt-temple-presentation.png",
+      "../tshirt-temple-dos.png"
+    ],
+    "categorie": "Temple",
+    "tailles": ["S", "M", "L", "XL"],
+    "badge": "Bestseller"
+  },
+  {
+    "id": 14,
+    "nom": "Temple Noir",
+    "prix": 60,
+    "description": "Declinaison noire du design Temple pour un look premium et affirme.",
+    "images": [
+      "../tshirt-temple-noir.png",
+      "../tshirt-temple-noir-presentation.png"
+    ],
+    "categorie": "Temple",
+    "tailles": ["S", "M", "L", "XL"],
+    "badge": null
   }
 ]

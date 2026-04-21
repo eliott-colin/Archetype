@@ -61,7 +61,10 @@ export default function Panier() {
               {cart.map((item) => (
                 <div key={`${item.id}-${item.size}`} className="cart-item">
                   <div className="item-image">
-                    <img src={item.image} alt={item.nom} />
+                    <img
+                      src={(Array.isArray(item.images) && item.images.length > 0 ? item.images[0] : item.image) || ''}
+                      alt={item.nom}
+                    />
                   </div>
 
                   <div className="item-details">

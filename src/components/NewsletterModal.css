@@ -1,0 +1,100 @@
+.newsletter-overlay {
+  position: fixed;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  padding: 1.2rem;
+  background: rgba(14, 42, 58, 0.55);
+  z-index: 1200;
+  animation: newsletterFadeIn 0.25s ease;
+}
+
+.newsletter-modal {
+  position: relative;
+  width: min(520px, 100%);
+  background: linear-gradient(145deg, #f7f1e8, #efe4d1);
+  border: 1px solid rgba(169, 124, 80, 0.35);
+  border-radius: 18px;
+  padding: 2rem 1.5rem;
+  box-shadow: 0 18px 35px rgba(14, 42, 58, 0.24);
+}
+
+.newsletter-close {
+  position: absolute;
+  top: 0.8rem;
+  right: 0.8rem;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 999px;
+  background-color: rgba(14, 42, 58, 0.12);
+  color: var(--color-nuit);
+  font-size: 1.25rem;
+  line-height: 1;
+}
+
+.newsletter-kicker {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--color-bronze);
+}
+
+.newsletter-description {
+  margin-top: 0.4rem;
+  color: var(--color-carbone);
+}
+
+.newsletter-form {
+  margin-top: 1rem;
+  display: grid;
+  gap: 0.65rem;
+}
+
+.newsletter-form label {
+  font-weight: 600;
+}
+
+.newsletter-form input {
+  width: 100%;
+  padding: 0.78rem 0.9rem;
+  border: 1px solid rgba(92, 70, 50, 0.25);
+  border-radius: 10px;
+  background-color: #fff;
+  font-size: 1rem;
+}
+
+.newsletter-form button {
+  margin-top: 0.2rem;
+  width: fit-content;
+  padding: 0.72rem 1.05rem;
+  border-radius: 10px;
+  font-weight: 700;
+  color: #fff;
+  background-color: var(--color-bronze);
+}
+
+.newsletter-success {
+  margin-top: 0.95rem;
+  padding: 0.65rem 0.8rem;
+  border-radius: 10px;
+  background: rgba(107, 125, 90, 0.18);
+  color: #35522d;
+  font-weight: 600;
+}
+
+@keyframes newsletterFadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 600px) {
+  .newsletter-modal {
+    padding: 1.5rem 1.15rem;
+  }
+}

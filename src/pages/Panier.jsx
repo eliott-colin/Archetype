@@ -123,7 +123,7 @@ export default function Panier() {
 
                 <div className="summary-row">
                   <span>Livraison</span>
-                  <span>Gratuite</span>
+                  <span>7.99€</span>
                 </div>
 
                 <div className="summary-divider"></div>

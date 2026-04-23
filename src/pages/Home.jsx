@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import ProductCard from '../components/ProductCard';
 import productsData from '../data/products.json';
 import './Home.css';
+import Bandeau from '../components/Bandeau';
 
 export default function Home() {
   const featuredProducts = productsData.slice(0, 4);
@@ -9,6 +10,7 @@ export default function Home() {
   return (
     <div className="home">
       {/* Hero Section */}
+      <Bandeau />
       <section className="hero" style={{gap:"0", mediaQueries: "(max-width: 768px) : {display: 'flex', flexDirection: 'column'}"}}>
         <div className="hero-image-placeholder">
           <div className="hero-content" style={{margin: "auto", backgroundImage : "url(../atelier.png)",height: "100%", backgroundSize: "cover",alignContent: "center",textAlign: "center"}}>

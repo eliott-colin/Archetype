@@ -1,8 +1,10 @@
+import { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { CartProvider } from './context/CartContext';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Chatbot from './components/Chatbot';
+import NewsletterModal from './components/NewsletterModal';
 import Home from './pages/Home';
 import Catalogue from './pages/Catalogue';
 import Produit from './pages/Produit';
@@ -12,6 +14,12 @@ import PrivacyPolicy from './pages/PrivacyPolicy';
 import './App.css';
 
 export default function App() {
+  const [isNewsletterOpen, setIsNewsletterOpen] = useState(false);
+
+  useEffect(() => {
+    setIsNewsletterOpen(true);
+  }, []);
+
   return (
     <Router>
       <CartProvider>
@@ -29,6 +37,10 @@ export default function App() {
           </main>
           <Footer />
           <Chatbot />
+          <NewsletterModal
+            isOpen={isNewsletterOpen}
+            onClose={() => setIsNewsletterOpen(false)}
+          />
         </div>
       </CartProvider>
     </Router>

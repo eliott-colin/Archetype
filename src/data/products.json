@@ -253,5 +253,35 @@
     "categorie": "Colisée",
     "tailles": ["S", "M", "L", "XL"],
     "badge": null
+  },
+  {
+    "id": 18,
+    "nom": "T-shirt Chichén Itzá",
+    "prix": 40.99,
+    "description": "Un design inspiré de Chichén Itzá, symbole de voyage et de mystère préhistorique.",
+    "images": [
+      "../tshirt-itza-presentation-face.png",
+      "../tshirt-itza-presentation-dos.png",
+      "../tshirt-itza-face.png",
+      "../tshirt-itza-dos.png"
+    ],
+    "categorie": "Chichén Itzá",
+    "tailles": ["S", "M", "L", "XL"],
+    "badge": null
+  },
+  {
+    "id": 19,
+    "nom": "T-shirt Chichén Itzá Noir",
+    "prix": 40.99,
+    "description": "Une version sombre de Chichén Itzá, symbole de voyage et de mystère préhistorique.",
+    "images": [
+      "../tshirt-itza-presentation-face-noir.png",
+      "../tshirt-itza-presentation-dos-noir.png",
+      "../tshirt-itza-face-noir.png",
+      "../tshirt-itza-dos-noir.png"
+    ],
+    "categorie": "Chichén Itzá",
+    "tailles": ["S", "M", "L", "XL"],
+    "badge": null
   }
 ]

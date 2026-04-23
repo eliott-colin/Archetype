@@ -7,7 +7,7 @@ export default function Catalogue() {
   const [selectedCategory, setSelectedCategory] = useState(null);
   const [sortBy, setSortBy] = useState('name');
 
-  const categories = [ 'Muraille de Chine', 'Machu Picchu', 'Christ Rédempteur', 'Pyramide de Gizeh', 'Petra', 'Babylone' ];
+  const categories = [ 'Muraille de Chine', 'Machu Picchu', 'Christ Rédempteur', 'Pyramide de Gizeh', 'Petra', 'Babylone', 'Taj Mahal', 'Colisée' ];
 
   let filtered = selectedCategory
     ? productsData.filter((p) => p.categorie === selectedCategory)

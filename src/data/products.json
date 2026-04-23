@@ -208,5 +208,50 @@
     "categorie": "Babylone",
     "tailles": ["S", "M", "L", "XL"],
     "badge": "Rupture de Stock"
+  },
+  {
+    "id": 15,
+    "nom": "T-shirt Taj Mahal",
+    "prix": 43.99,
+    "description": "Un design inspiré du Taj Mahal, symbole de voyage et d'amour éternel.",
+    "images": [
+      "../tshirt-tajmahal-presentation-face.png",
+      "../tshirt-tajmahal-presentation-dos.png",
+      "../tshirt-tajmahal-face.png",
+      "../tshirt-tajmahal-dos.png"
+    ],
+    "categorie": "Taj Mahal",
+    "tailles": ["S", "M", "L", "XL"],
+    "badge": null
+  },
+  {
+    "id": 16,
+    "nom": "T-shirt Colisée",
+    "prix": 49.99,
+    "description": "Un design inspiré du Colisée, symbole de voyage et d'architecture romaine.",
+    "images": [
+      "../tshirt-colisee-presentation-face.png",
+      "../tshirt-colisee-presentation-dos.png",
+      "../tshirt-colisee-face.png",
+      "../tshirt-colisee-dos.png"
+    ],
+    "categorie": "Colisée",
+    "tailles": ["S", "M", "L", "XL"],
+    "badge": null
+  },
+  {
+    "id": 17,
+    "nom": "T-shirt Colisée Noir",
+    "prix": 41.99,
+    "description": "Une version sombre du Colisée, symbole de voyage et d'architecture romaine.",
+    "images": [
+      "../tshirt-colisee-presentation-face-noir.png",
+      "../tshirt-colisee-presentation-dos-noir.png",
+      "../tshirt-colisee-face-noir.png",
+      "../tshirt-colisee-dos-noir.png"
+    ],
+    "categorie": "Colisée",
+    "tailles": ["S", "M", "L", "XL"],
+    "badge": null
   }
 ]

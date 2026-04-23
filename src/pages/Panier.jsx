@@ -130,7 +130,7 @@ export default function Panier() {
 
                 <div className="summary-total">
                   <span>Total</span>
-                  <span>{getCartTotal().toFixed(2)}€</span>
+                  <span>{(getCartTotal() + 7.99).toFixed(2)}€</span>
                 </div>
 
                 <button

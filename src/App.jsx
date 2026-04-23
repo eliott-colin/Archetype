@@ -7,6 +7,8 @@ import Home from './pages/Home';
 import Catalogue from './pages/Catalogue';
 import Produit from './pages/Produit';
 import Panier from './pages/Panier';
+import About from './pages/About';
+import PrivacyPolicy from './pages/PrivacyPolicy';
 import './App.css';
 
 export default function App() {
@@ -19,6 +21,8 @@ export default function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/catalogue" element={<Catalogue />} />
+              <Route path="/a-propos" element={<About />} />
+              <Route path="/politique-confidentialite" element={<PrivacyPolicy />} />
               <Route path="/produit/:id" element={<Produit />} />
               <Route path="/panier" element={<Panier />} />
             </Routes>

@@ -1,159 +1,179 @@
 [
   {
     "id": 1,
-    "nom": "Pyramide de Gizeh",
-    "prix": 45,
-    "description": "T-shirt inspiré des pyramides. Design minimaliste et intemporel.",
+    "nom": "T-shirt Muraille de Chine",
+    "prix": 49.99,
+    "description": "Un design inspiré de la Grande Muraille, symbole de voyage et d'histoire.",
     "images": [
-      "../tshirt-pyramide.png",
-      "../tshirt-pyramide-presentation.png"
-    ],
-    "categorie": "Pyramide de Gizeh",
-    "tailles": ["S", "M", "L", "XL"],
-    "badge": "Bestseller"
-  },
-  {
-    "id": 2,
-    "nom": "Pyramide Noir",
-    "prix": 47,
-    "description": "Version sombre du design pyramide pour un style plus urbain.",
-    "images": [
-      "../tshirt-pyramide-noir.png",
-      "../tshirt-pyramide-noir-presentation.png"
-    ],
-    "categorie": "Pyramide de Gizeh",
-    "tailles": ["S", "M", "L", "XL"],
-    "badge": null
-  },
-  {
-    "id": 3,
-    "nom": "Rio",
-    "prix": 48,
-    "description": "T-shirt inspiré de Rio et de son énergie vibrante.",
-    "images": [
-      "../tshirt-christ.png",
-      "../tshirt-christ-presentation.png"
-    ],
-    "categorie": "Christ Rédempteur",
-    "tailles": ["S", "M", "L", "XL"],
-    "badge": "Nouveau"
-  },
-  {
-    "id": 4,
-    "nom": "Rio Noir",
-    "prix": 50,
-    "description": "Version noire du design Rio, élégante et moderne.",
-    "images": [
-      "../tshirt-christ-noir.png",
-      "../tshirt-christ-noir-presentation.png"
-    ],
-    "categorie": "Christ Rédempteur",
-    "tailles": ["S", "M", "L", "XL"],
-    "badge": null
-  },
-  {
-    "id": 5,
-    "nom": "Montagne",
-    "prix": 52,
-    "description": "Pour les amateurs d'altitude et de nature sauvage.",
-    "images": [
-      "../tshirt-montagne.png",
-      "../tshirt-montagne-face.png",
-      "../tshirt-montagne-dos.png"
-    ],
-    "categorie": "Machu Picchu",
-    "tailles": ["S", "M", "L", "XL"],
-    "badge": "Rupture de stock"
-  },
-  {
-    "id": 6,
-    "nom": "Montagne Noir",
-    "prix": 54,
-    "description": "Design montagne en version sombre pour un look premium.",
-    "images": [
-      "../tshirt-montagne-noir.png",
-      "../tshirt-montagne-face-noir.png",
-      "../tshirt-montagne-dos-noir.png"
-    ],
-    "categorie": "Machu Picchu",
-    "tailles": ["S", "M", "L", "XL"],
-    "badge": null
-  },
-  {
-    "id": 7,
-    "nom": "Machu Picchu",
-    "prix": 55,
-    "description": "Inspiré du célèbre site inca. Mystérieux et iconique.",
-    "images": [
-      "../tshirt-machu-picchu.png",
-      "../tshirt-machu-picchu-face.png",
-      "../tshirt-machu-picchu-dos.png"
-    ],
-    "categorie": "Machu Picchu",
-    "tailles": ["S", "M", "L", "XL"],
-    "badge": "Nouveau"
-  },
-  {
-    "id": 8,
-    "nom": "Machu Picchu Noir",
-    "prix": 57,
-    "description": "Version noire du design Machu Picchu pour un style affirmé.",
-    "images": [
-      "../tshirt-machu-picchu-noir.png",
-      "../tshirt-machu-picchu-noir-plie.png"
-    ],
-    "categorie": "Machu Picchu",
-    "tailles": ["S", "M", "L", "XL"],
-    "badge": null
-  },
-  {
-    "id": 9,
-    "nom": "Muraille de Chine",
-    "prix": 53,
-    "description": "Un design inspiré de la Grande Muraille, symbole de voyage et d’histoire.",
-    "images": [
-      "../tshirt-muraille-de-chine.png",
+      "../tshirt-muraille-de-chine-presentation-face.png",
+      "../tshirt-muraille-de-chine-presentation-dos.png",
       "../tshirt-muraille-de-chine-face.png",
       "../tshirt-muraille-de-chine-dos.png"
     ],
     "categorie": "Muraille de Chine",
     "tailles": ["S", "M", "L", "XL"],
+    "badge": "Bestseller"
+  },
+  {
+    "id": 2,
+    "nom": "T-shirt Muraille de Chine Noir",
+    "prix": 49.99,
+    "description": "Une version sombre de la Grande Muraille, symbole de voyage et d'histoire.",
+    "images": [
+      "../tshirt-muraille-de-chine-presentation-face-noir.png",
+      "../tshirt-muraille-de-chine-presentation-dos-noir.png",
+      "../tshirt-muraille-de-chine-face-noir.png",
+      "../tshirt-muraille-de-chine-dos-noir.png"
+    ],
+    "categorie": "Muraille de Chine",
+    "tailles": ["S", "M", "L", "XL"],
     "badge": null
   },
   {
-    "id": 10,
-    "nom": "Muraille de Chine Noir",
-    "prix": 56,
-    "description": "Version sombre du design Muraille de Chine, élégante et moderne.",
+    "id": 3,
+    "nom": "T-shirt Machu Picchu",
+    "prix": 42.99,
+    "description": "Un design inspiré du Machu Picchu, symbole de voyage et de patrimoine.",
     "images": [
-      "../tshirt-muraille-de-chine-noir.png",
-      "../tshirt-muraille-de-chine-noir-plie.png"
+      "../tshirt-machu-picchu-presentation-face.png",
+      "../tshirt-machu-picchu-presentation-dos.png",
+      "../tshirt-machu-picchu-face.png",
+      "../tshirt-machu-picchu-dos.png"
     ],
-    "categorie": "Muraille de Chine",
+    "categorie": "Machu Picchu",
+    "tailles": ["S", "M", "L", "XL"],
+    "badge": null
+  },
+  {
+    "id": 4,
+    "nom": "T-shirt Machu Picchu Noir",
+    "prix": 42.99,
+    "description": "Une version sombre du Machu Picchu, symbole de voyage et de patrimoine.",
+    "images": [
+      "../tshirt-machu-picchu-presentation-face-noir.png",
+      "../tshirt-machu-picchu-presentation-dos-noir.png",
+      "../tshirt-machu-picchu-face-noir.png",
+      "../tshirt-machu-picchu-dos-noir.png"
+    ],
+    "categorie": "Machu Picchu",
+    "tailles": ["S", "M", "L", "XL"],
+    "badge": null
+  },
+  {
+    "id": 5,
+    "nom": "T-shirt Machu Picchu - Édition Limitée",
+    "prix": 44.99,
+    "description": "Une déclinaison limitée du Machu Picchu, symbole de voyage et de patrimoine.",
+    "images": [
+      "../tshirt-machu-picchu-presentation-face-limited.png",
+      "../tshirt-machu-picchu-presentation-dos-limited.png",
+      "../tshirt-machu-picchu-face-limited.png",
+      "../tshirt-machu-picchu-dos-limited.png"
+    ],
+    "categorie": "Machu Picchu",
+    "tailles": ["S", "M", "L", "XL"],
+    "badge": "Édition Limitée"
+  },
+  {
+    "id": 6,
+    "nom": "T-shirt Machu Picchu - Édition Limitée Noir",
+    "prix": 44.99,
+    "description": "Une déclinaison limitée et sombre du Machu Picchu, symbole de voyage et de patrimoine.",
+    "images": [
+      "../tshirt-machu-picchu-presentation-face-limited-noir.png",
+      "../tshirt-machu-picchu-presentation-dos-limited-noir.png",
+      "../tshirt-machu-picchu-face-limited-noir.png",
+      "../tshirt-machu-picchu-dos-limited-noir.png"
+    ],
+    "categorie": "Machu Picchu",
+    "tailles": ["S", "M", "L", "XL"],
+    "badge": "Édition Limitée"
+  }
+  ,{
+    "id": 7,
+    "nom": "T-shirt Christ Rédempteur",
+    "prix": 44.99,
+    "description": "Un design inspiré du Christ Rédempteur, symbole de voyage et de panorama iconique.",
+    "images": [
+      "../tshirt-rio-presentation-face.png",
+      "../tshirt-rio-presentation-dos.png",
+      "../tshirt-rio-face.png",
+      "../tshirt-rio-dos.png"
+    ],
+    "categorie": "Christ Rédempteur",
+    "tailles": ["S", "M", "L", "XL"],
+    "badge": null
+  },
+  {
+    "id": 8,
+    "nom": "T-shirt Christ Rédempteur Noir",
+    "prix": 44.99,
+    "description": "Une version sombre du Christ Rédempteur, symbole de voyage et de panorama iconique.",
+    "images": [
+      "../tshirt-rio-presentation-face-noir.png",
+      "../tshirt-rio-presentation-dos-noir.png",
+      "../tshirt-rio-face-noir.png",
+      "../tshirt-rio-dos-noir.png"
+    ],
+    "categorie": "Christ Rédempteur",
+    "tailles": ["S", "M", "L", "XL"],
+    "badge": null
+  },
+  {
+    "id": 9,
+    "nom": "T-shirt Pyramide de Gizeh",
+    "prix": 49.99,
+    "description": "Un design inspiré des pyramides de Gizeh, symbole de voyage et de mystère.",
+    "images": [
+      "../tshirt-pyramide-presentation-face.png",
+      "../tshirt-pyramide-presentation-dos.png",
+      "../tshirt-pyramide-face.png",
+      "../tshirt-pyramide-dos.png"
+    ],
+    "categorie": "Pyramide de Gizeh",
     "tailles": ["S", "M", "L", "XL"],
     "badge": "Bestseller"
   },
   {
-    "id": 11,
-    "nom": "Petra",
-    "prix": 51,
-    "description": "Un design desertique inspire des paysages arides et des voyages en caravane.",
+    "id": 10,
+    "nom": "T-shirt Pyramide de Gizeh Noir",
+    "prix": 49.99,
+    "description": "Une version sombre des pyramides de Gizeh, symbole de voyage et de mystère.",
     "images": [
-      "../tshirt-petra.png",
-      "../tshirt-petra-presentation.png"
+      "../tshirt-pyramide-presentation-face-noir.png",
+      "../tshirt-pyramide-presentation-dos-noir.png",
+      "../tshirt-pyramide-face-noir.png",
+      "../tshirt-pyramide-dos-noir.png"
+    ],
+    "categorie": "Pyramide de Gizeh",
+    "tailles": ["S", "M", "L", "XL"],
+    "badge": null
+  },
+  {
+    "id": 11,
+    "nom": "T-shirt Petra",
+    "prix": 54.99,
+    "description": "Un design inspiré de Petra, symbole de voyage et de pierre sculptée.",
+    "images": [
+      "../tshirt-petra-presentation-face.png",
+      "../tshirt-petra-presentation-dos.png",
+      "../tshirt-petra-face.png",
+      "../tshirt-petra-dos.png"
     ],
     "categorie": "Petra",
     "tailles": ["S", "M", "L", "XL"],
-    "badge": "Dernière pièce"
+    "badge": null
   },
   {
     "id": 12,
-    "nom": "Petra Noir",
-    "prix": 53,
-    "description": "Version sombre du modele Petra, sobrietee et caractere au quotidien.",
+    "nom": "T-shirt Petra Noir",
+    "prix": 54.99,
+    "description": "Une version sombre de Petra, symbole de voyage et de pierre sculptée.",
     "images": [
-      "../tshirt-petra-noir.png",
-      "../tshirt-petra-noir-presentation.png"
+      "../tshirt-petra-presentation-face-noir.png",
+      "../tshirt-petra-presentation-dos-noir.png",
+      "../tshirt-petra-face-noir.png",
+      "../tshirt-petra-dos-noir.png"
     ],
     "categorie": "Petra",
     "tailles": ["S", "M", "L", "XL"],
@@ -161,29 +181,32 @@
   },
   {
     "id": 13,
-    "nom": "Babylone",
-    "prix": 58,
-    "description": "Un visuel architecture et patrimoine, entre mystere ancien et modernite.",
+    "nom": "T-shirt Babylone",
+    "prix": 39.99,
+    "description": "Un design inspiré de Babylone, symbole de voyage et d'héritage ancien.",
     "images": [
-      "../tshirt-babylone-presentation.png",
+      "../tshirt-babylone-presentation-face.png",
+      "../tshirt-babylone-presentation-dos.png",
       "../tshirt-babylone-face.png",
       "../tshirt-babylone-dos.png"
     ],
     "categorie": "Babylone",
     "tailles": ["S", "M", "L", "XL"],
-    "badge": "Bestseller"
+    "badge": null
   },
   {
     "id": 14,
-    "nom": "Babylone Noir",
-    "prix": 60,
-    "description": "Declinaison noire du design Babylone pour un look premium et affirme.",
+    "nom": "T-shirt Babylone Noir",
+    "prix": 39.99,
+    "description": "Une version sombre de Babylone, symbole de voyage et d'héritage ancien.",
     "images": [
-      "../tshirt-babylone-noir.png",
-      "../tshirt-babylone-noir-presentation.png"
+      "../tshirt-babylone-presentation-face-noir.png",
+      "../tshirt-babylone-presentation-dos-noir.png",
+      "../tshirt-babylone-face-noir.png",
+      "../tshirt-babylone-dos-noir.png"
     ],
     "categorie": "Babylone",
     "tailles": ["S", "M", "L", "XL"],
-    "badge": null
+    "badge": "Rupture de Stock"
   }
 ]

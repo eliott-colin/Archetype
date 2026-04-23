@@ -17,14 +17,13 @@ export default function Navbar() {
   return (
     <nav className="navbar">
       <div className="container navbar-content">
-        <div style={{alignItems:"center", display:"flex",gap:"20px"}}>
+        <div className="navbar-brand">
           <Link
             to="/"
             onClick={handleLogoClick}
             className="navbar-logo"
-            style={{alignItems : "center", display:"flex",gap:"12px"}}
           >
-          <img src="/logo.png" alt="ARCHETYPE Logo" style={{width:"56px",borderRadius:"100%"}} />
+            <img src="/logo.png" alt="ARCHETYPE Logo" className="navbar-logo-image" />
             ARCHETYPE
           </Link>
         </div>
@@ -35,6 +34,9 @@ export default function Navbar() {
           </li>
           <li>
             <Link to="/catalogue">Catalogue</Link>
+          </li>
+          <li>
+            <Link to="/a-propos">À propos</Link>
           </li>
         </ul>
 
